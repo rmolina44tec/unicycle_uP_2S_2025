@@ -13,7 +13,7 @@ module adder_tb #(parameter WIDTH = 32)();
         .out(out1)
     );
 
-    adder adder2 #(WIDTH(8))(
+    adder adder2 #(.WIDTH(8))(
         .a(a2),
         .b(b2),
         .out(out2)
